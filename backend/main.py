@@ -1,4 +1,3 @@
-```python id="y6m8pk"
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -34,4 +33,4 @@ def agentic_ai_workflow(data: UserQuery):
         "workflow_status": workflow,
         "final_response": "Enterprise AI workflow executed successfully."
     }
-```
+
